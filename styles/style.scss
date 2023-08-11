@@ -1,15 +1,18 @@
 .container {
+    display: flex;
+}
+.cont-sup1 {
     margin: 0 auto;
     width: 200px;
-    height: 500px;
+    height: 200px;
     border: 3px solid black;
     border-radius: 10px;
     margin-top: 150px;
 
-    .cube {
-        height: 300px;
+    .cube1 {
+       
         
-        .input {
+        .input1 {
             width: 50px;
             height: 20px;
             padding-left: 75px;
@@ -17,33 +20,119 @@
             text-align: center;
         }
     }
-    .cube-changed {
-        height: 300px;
+    .cube2 {
+       
         
-        background-color: rgb(188, 12, 241);
-        
+        .input2 {
+            width: 50px;
+            height: 20px;
+            padding-left: 75px;
+            padding-top: 145px;
+            text-align: center;
+        }
     }
-    .button1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-        border-top: 3px solid black;
-        border-bottom: 3px solid black;
-        cursor: pointer;
-        
-    }
-    .button2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-        cursor: pointer;
+    
+    
+    
+}
+.cube-changed {
+    border: 3px solid greenyellow;
+    
+}
 
+.cont-sup2 {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 150px;
+
+    .cube1 {
+        
+        
+        .input1 {
+            width: 50px;
+            height: 20px;
+            padding-left: 75px;
+            padding-top: 145px;
+            text-align: center;
+        }
     }
-    .button3 {
+    .cube2 {
+        
+        
+        .input2 {
+            width: 50px;
+            height: 20px;
+            padding-left: 75px;
+            padding-top: 145px;
+            text-align: center;
+        }
+    }
+    
+    
+    
+}
+.cube-changed {
+    border: 3px solid greenyellow;
+    
+}
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border: 3px solid black;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button2 {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    cursor: pointer;
+    border: 3px solid black;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.button3 {
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border: 3px solid black;
+    margin-top: 200px;
+    border-radius: 10px;
+
+    .button4 {
+        height: 93px;
+        width: 50px;
+        border-left: none;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 3px solid black;
     }
-    
-    
+    .button5 {
+        height: 93px;
+        width: 50px;
+        text-align: center;
+        border-right: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.cube-bg {
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(0, 140, 255);
 }
