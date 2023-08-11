@@ -1,0 +1,49 @@
+.container {
+    margin: 0 auto;
+    width: 200px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 150px;
+
+    .cube {
+        height: 300px;
+        
+        .input {
+            width: 50px;
+            height: 20px;
+            padding-left: 75px;
+            padding-top: 145px;
+            text-align: center;
+        }
+    }
+    .cube-changed {
+        height: 300px;
+        
+        background-color: rgb(188, 12, 241);
+        
+    }
+    .button1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        cursor: pointer;
+        
+    }
+    .button2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        cursor: pointer;
+
+    }
+    .button3 {
+        cursor: pointer;
+    }
+    
+    
+}
